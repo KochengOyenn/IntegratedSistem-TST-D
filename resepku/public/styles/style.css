@@ -1,0 +1,75 @@
+* {
+    font-family: "Ubuntu", sans-serif;
+}
+
+.bg-resepku {
+    background-color: #547794;
+}
+
+.text-resepku,
+.text-resepku:hover {
+    color: #547794;
+}
+
+.btn-resepku {
+    background-color: #547794;
+    color: #ffffff;
+}
+
+.btn-resepku:hover {
+    background-color: #47657e;
+    color: #ffffff;
+}
+
+.navbar-nav a {
+    font-size: 18px;
+}
+
+.bg-footer {
+    background-color: #c4c4c4;
+}
+
+.card .btn-secondary {
+    background: #c2c9cd;
+    border: 1px solid #c2c9cd;
+    color: #000000;
+    border-radius: 12px;
+}
+
+.card .btn-secondary:hover {
+    background: #afb5b9;
+    border: 1px solid #c2c9cd;
+}
+
+.card .text-muted {
+    color: #666666 !important;
+}
+
+.recipe-item .card {
+    border: none;
+    width: 290px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.auth {
+    width: 600px;
+    border: 1px solid #c2c9cd;
+}
+
+@media screen and (max-width: 1024px) {
+    .recipe-item .card,
+    .auth {
+        width: 100%;
+    }
+
+    .card-img-top {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+}
